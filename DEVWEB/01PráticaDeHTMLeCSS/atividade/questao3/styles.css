@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.grid-container {
+  display: grid;
+  border: 10px solid black;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: 100vh;
+  gap: 10px;
+  height: 100%;
+}
+
+.left-bar {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid red;
+  height: 400px;
+}
+
+.main {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid green;
+  height: 500px;
+}
+
+.right-bar {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid black;
+  height: 400px;
+}
