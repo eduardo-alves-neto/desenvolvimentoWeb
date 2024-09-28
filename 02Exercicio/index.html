@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>atividade</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-header">
+          <h1 class="card-title">Consulta de CEP</h1>
+        </div>
+
+        <div class="card-content">
+          <div class="form-group">
+            <label for="cep">CEP</label>
+            <input
+              type="text"
+              id="cep"
+              placeholder="Digite o CEP (apenas números)"
+              maxlength="8"
+            />
+          </div>
+
+          <button id="consultar-btn">Consultar</button>
+          <p id="erro" class="erro"></p>
+          <div id="resultado" class="resultado"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
